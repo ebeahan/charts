@@ -63,7 +63,7 @@ Parameter | Description | Default
 `env` | Extra environment variables passed to pod | `{}`
 `secretMounts` |  list of secrets and their paths to mount inside the pod | `[]`
 `affinity` | Affinity rules | `{}`
-`es.uri` | address of the Elasticsearch node to connect to | `localhost:9200`
+`es.uri` | address of the Elasticsearch node to connect to | `http://localhost:9200`
 `es.all` | if `true`, query stats for all nodes in the cluster, rather than just the node we connect to | `true`
 `es.indices` | if true, query stats for all indices in the cluster | `true`
 `es.shards` | if true, query stats for shards in the cluster | `true`
